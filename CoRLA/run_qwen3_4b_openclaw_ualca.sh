@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-# CoRLA (ICLR2027.pdf): separate policy LoRA, critic LoRA, and frozen PRM.
 set -euo pipefail
 
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
